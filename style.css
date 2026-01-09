@@ -12,7 +12,7 @@ body {
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    background-color: #d8dbdd;
+    background-color: #817f7f;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     margin-bottom: 20px;
 }
@@ -39,7 +39,7 @@ body {
 .nav-bar-link a {
     font-size: medium;
     text-decoration: none;
-    color: black;
+    color: rgb(241, 238, 238);
 }
 
 .nav-bar-link a:hover {
