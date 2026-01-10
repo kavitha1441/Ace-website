@@ -1,29 +1,39 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
 
-body {
+body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(BGimg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.nav-bar {
+.nav-bar{
     display: flex;
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    background-color: #817f7f;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: #bbc2c7;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(197, 173, 173, 0.22) 0px 15px 12px;
     margin-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
 }
 
-.logo {
-    margin-left: 20px;
-    display: inline-flex;
+.logo {   
+    margin-left: 10px;
+    display: flex;
 }
 
 .logo h1{
     font-size: xx-large;
+    font-family: "Russo One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .subtitle {
@@ -34,12 +44,13 @@ body {
 .nav-bar-links {
     display: flex;
     column-gap: 30px;
+    padding-right: 40px;
 }
 
 .nav-bar-link a {
     font-size: medium;
     text-decoration: none;
-    color: rgb(241, 238, 238);
+    color: rgb(0, 0, 0);
 }
 
 .nav-bar-link a:hover {
@@ -49,6 +60,7 @@ body {
 
 .nav-bar-menu-toggle {
     display: none;
+    padding-right: 10px;
 }
 
 /*Side Navbar*/
@@ -78,6 +90,10 @@ body {
     color: red;
 }
 
+.heading{
+    padding: 60px;
+}
+
 .sub-heading {
     padding: 30px;
 }
@@ -88,8 +104,15 @@ body {
     justify-content: center;
 }
 
-.core-service {
-    padding: 25px;
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.core-service{
+    padding: 20px;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +124,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: #3c3d3f;
+    flex-grow: 1;
     height: 90px;
     width: 200px;
 }
@@ -109,6 +133,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: #3c3d3f;
+    flex-grow: 1;
     height: 90px;
     width: 200px;
 }
@@ -117,6 +142,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: #3c3d3f;
+    flex-grow: 1;
     height: 90px;
     width: 200px;
 }
@@ -125,6 +151,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: #3c3d3f;
+    flex-grow: 1;
     height: 90px;
     width: 200px;
 }
@@ -133,6 +160,7 @@ body {
     padding: 20px;
     text-align: center;
     background-color: #3c3d3f;
+    flex-grow: 1;
     height: 90px;
     width: 200px;
 }
@@ -154,28 +182,30 @@ body {
 }
 
 .footer {
-    margin-top: 20px;
     padding: 20px;
-    background-color: #817f7f;
+    background-color: gray;
     color: rgb(7, 7, 7);
 }
-.footer-logo{
+.footer-logo h1{
     display: inline-flex;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
 }
 
-.footer p,h4,i {
-        padding: 3px;
+.footer p,h4,i{
+    padding: 3px;
 }
 
-.contact {
+.contact{ 
     height: 450px;
     width: 350px;
     background-color: #3c3d3f;
     color: rgb(252, 249, 249);
     text-align: center;
-    padding: 25px;
+    margin-top: 30%;
     margin: auto;
     justify-content: center;
+     
 }
 
 .contact-container {
@@ -199,7 +229,7 @@ body {
     color: #f5f3f3;
     background-color: rgb(209, 20, 20);
     border-radius: 10%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .about{
