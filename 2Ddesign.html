@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lexend:wght@100..900&family=Manufacturing+Consent&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lexend:wght@100..900&family=Manufacturing+Consent&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <nav class="nav-bar">
         <div class="logo">
@@ -23,20 +19,32 @@
             <img src="AceLogo.png">
             </div>
             <div class="subtitle">
-                <h4 style="justify-content: space-between;">Engineering Design Services</h4>
+                <h4>Engineering Design Services</h4>
             </div>
         </div>
         <div class="nav-bar-links">
             <p class="nav-bar-link"><b><a href="index.html">Home</a></b></p>
             <p class="nav-bar-link"><b><a href="about.html">About</a></b></p>
-            <p class="nav-bar-link"><b><a href="">Services</a></b></p>
+            <p class="nav-bar-link"><div class="dropdown">
+            <button class="dropbtn">Services<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+            <a href="2Ddesign.html">2D Service</a>
+            <a href="#">3D Service</a>
+            <a href="#">SPM</a>
+            <a href="#">Assembly</a>
+            <a href="#">Architecture</a>
+            <a href="#">Commercial Design</a>
+            <a href="#">BIW Design</a>
+            <a href="#">Plastic Design</a>
+            <a href="#">Structurel Design</a>
+            <a href="#">Sheet Metal Design</a>
+            <a href="#">MEP Design</a>
+            <a href="#">HVAC Design</a>
+            </div>
+            </div> 
             <p class="nav-bar-link"><b><a href="">Portfolio</a></b></p>
             <p class="nav-bar-link"><b><a href="contact.html">Contact us</a></b></p>
         </div>
-        <div class="nav-bar-menu-toggle" onclick="showNavbar()">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </nav>
     <!--Side Nav bar-->
     <div class="side-nav-bar">
         <p style="text-align: right;" onclick="closeNavbar()">
@@ -94,44 +102,6 @@
                 </div>
             </div>
         </div>
-        <div class="spm">
-            <h1>SPM Designing Services</h1>
-            <p>
-                SPM Design Services specializes in creating visually compelling designs that help brands stand out. We combine creativity, strategy, and attention to detail to deliver designs that truly connect with your audience.
-            </p>
-            <h2>Our SPM Capabilities</h2>
-            <div class="spmservices">
-                <div class="spmservice-box">
-                    <h3>Graphic Design</h3>
-                    <p>Logos, posters, flyers, banners and creative visuals designed to communicate your message clearly</p>
-                </div>
-
-                <div class="spmservice-box">
-                    <h3>Brand Identity</h3>
-                    <p>Complete brand identity solutions including logo design, color palettes and brand guidelines.</p>
-                </div>
-
-                <div class="spmservice-box">
-                    <h3>Social Media Design</h3>
-                    <p>Engaging social media posts, ads, and digital creatives that boost brand visibility.</p>
-                </div>
-
-                <div class="spmservice-box">
-                    <h3>Print Design</h3>
-                    <p>High-quality print-ready designs for business cards, brochures, packaging and more.</p>
-                </div>
-            </div>
-        </div>
-        <ul>
-            <li>Assembly</li>
-            <li>BIW Design</li>
-            <li>Sturctural design</li>
-            <li>Sheet Metal Design</li>
-            <li>Architectue</li>
-            <li>Commercial Desingn</li>
-            <li>Mep Design</li>
-            <li>HVAC Design</li>
-        </ul>
     </div>
     <!--Footer-->
         <div class="footer">
@@ -153,5 +123,4 @@
         </div>
         <script src="index.js"></script>
 </body>
-
 </html>
